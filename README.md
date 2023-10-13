@@ -1,1 +1,1 @@
-# reminderwebpage
+This HTML and CSS code will create a simple reminder management system. Users can enter reminders in the input field and click the "Add" button to add them to the list. The reminders are displayed in a list format below the input field. This is a very basic example, and you can extend and improve it with additional features, such as the ability to edit or delete reminders, store reminders in local storage, and more.
