@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remainder Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>User Login</h2>
+        <form onsubmit="validateForm(event)">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required><br>
+
+            <button type="submit" class="login" id="btn">Login</button>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+           background-color: rgb(29, 158, 63); /* Background color for the entire page //
+        }
+        
+        .container {
+            text-align: center;
+            background-color: #ffffff; /* Background color for the form container */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+        #btn{
+            padding: 2%;
+            border: 1px black;
+            border-radius: 4px;
+        }
+        
+        form {
+            margin-top: 20px;
+        }
+        
+        label,
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
+</body>
+
+</html>
